@@ -1,0 +1,14 @@
+
+########
+.ent-state
+
+
+
+/.idea/
+/ui/widgets/recipes/single-spa-react-widget/build
+/.bundle_build
+/.ent-prj
+/ui/widgets/recipes/single-spa-react-widget/node_modules/
+
+####
+bundle/
