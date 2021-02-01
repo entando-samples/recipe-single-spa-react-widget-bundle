@@ -1,0 +1,1 @@
+# recipe-single-spa-react-widget-bundle
