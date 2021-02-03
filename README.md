@@ -9,7 +9,7 @@ With this configuration, you can use the ent cli (https://dev.entando.org/v6.3/d
 3. ent prj fe-build -a
 4. ent prj pbs-init (it asks for the git bundle repo)
 5. ent prj fe-push
-6. for a local entando installation: ent generate-cr | ent kubectl apply -n entando -f -
+6. for a local entando installation: ent prj generate-cr | ent kubectl create -n entando -f -
 
 Install the bundle in the app builder, then create a page with the single-spa-react-widget
 
