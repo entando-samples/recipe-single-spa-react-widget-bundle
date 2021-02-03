@@ -4,7 +4,7 @@ It's a recipe for creating a bundle with a micro frontend widget using a single 
 
 With this configuration, you can use the ent cli (https://dev.entando.org/v6.3/docs/reference/entando-cli.html) to performing the different tasks
 
-1. cp -r bundle-src bundle
+1. cp -r bundle-src/* bundle
 2. ent prj init
 3. ent prj fe-build -a
 4. ent prj pbs-init (it asks for the git bundle repo)
