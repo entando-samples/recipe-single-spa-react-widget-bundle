@@ -7,7 +7,8 @@
 {
   "imports": {
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa/lib/system/single-spa.dev.js",
-    "single-spa-react-widget": "<@wp.resourceURL />single-spa-react-widget-bundle/static/js/entando-mf-recipes-sspa-parcel-recipe.js"
+    "single-spa-react-widget": "<@wp.resourceURL />single-spa-react-widget-bundle/static/js/entando-mf-recipes-sspa-parcel-recipe.js",
+    "single-spa-react-router-widget": "<@wp.resourceURL />single-spa-react-widget-bundle/static/js/entando-mf-recipes-sspa-react-router-recipe.js"
   }
 }
 </script>

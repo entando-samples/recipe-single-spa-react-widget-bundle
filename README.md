@@ -11,6 +11,13 @@ With this configuration, you can use the ent cli (https://dev.entando.org/v6.3/d
 5. ent prj fe-push
 6. for a local entando installation: ent prj generate-cr | ent kubectl create -n entando -f -
 
-Install the bundle in the app builder, then create a page with the import_map_ux_fragment ux fragment and the single-spa-react-widget
+Install the bundle in the app builder.
+The bundle contains:
+
+1. import_map_ux_fragment with the import-map definition and all the script imports
+2. single-spa-react-router-widget an example for hashrouting a MFE widget inside entando
+3. single-spa-react-widget a simple parcel
+
+Create a page tamplate with the import_map_ux_fragment in it, then design a page with the widgets
 
 enjoy
