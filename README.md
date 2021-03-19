@@ -16,9 +16,10 @@ Install the bundle using the App Builder.
 The bundle contains:
 
 1. `import_map_ux_fragment` with the import-map definition and all the script imports
-2. `single-spa-react-widget` a simple parcel
+2. `single-spa-react-router-widget` an example for hashrouting a MFE widget inside entando
+3. `single-spa-react-widget` a simple parcel
 
-Create a page template with the `import_map_ux_fragment` in it, then design a page with the widget.
+Create a page template with the `import_map_ux_fragment` in it, then design a page with the widgets.
 
 See <https://dev.entando.org> for more information on creating bundles, page templates, etc.
 
